@@ -1,0 +1,112 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.main-div{
+    display: grid;
+    position: relative;
+    top: 6px;
+    place-items: center;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-field{
+    display: block;
+    max-width: 2999px;
+}
+.input-field input{
+    height: 44px;
+    padding: 18px;
+    margin: 3px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13.6px;
+    background-color: #f5f6f7;
+    width: 400px;
+    outline: none;
+    border: 1.2px solid #e0dede;
+}
+input{
+    border-radius: 4px;
+}
+
+.login-button{
+    margin: 5px;
+}
+.login-button button{
+    height: 44px;
+    width: 400px;
+    background-color: #1877f2;
+    outline: none;
+    font-size: 20px;
+}
+.Login-button-press{
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: #5353 3px 4px 2px;
+}
+span{
+    margin: 5px;
+    color: #4b4f56;
+    font-size: 17px;
+    position: relative;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.button-create-account{
+    margin: 7px;
+}
+
+.button-create-account button{
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    background-color: #00a400;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: #5353 3px 2px 2px;
+}
+
+.forget-password a{ 
+    color: #7596c8;
+    font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    outline: none;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer{
+    position: relative;
+    margin-top: 10%;
+    font-size: 12px;
+    line-height: 15px;
+    color: gray;text-align: center;cursor: pointer;font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
